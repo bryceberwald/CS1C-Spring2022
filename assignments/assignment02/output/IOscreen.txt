@@ -1,0 +1,32 @@
+*******************************************************
+* PROGRAMMED BY : Bryce Berwald
+* CLASS         : CS1C
+* SECTION       : MW: 7:30PM-10:50PM
+* ASSIGNMENT #2 : Inheritance
+*******************************************************
+
+STUDENTS: 
+Name:            Students ID:     Phone Number:    Age:    Gender:   Class Standing:   GPA:   
+---------------- ---------------- ---------------- ------- --------- ----------------- ------ 
+
+Celine Dion      444444           949-555-1234     52      F         Freshmen          4.00   
+
+Madonna          123456           714-555-5555     62      F         Sophomore         3.23   
+
+Jennifer Lopez   876542           760-703-1234     51      F         Sophomore         3.79   
+
+Lady Gaga        777744           213-55-6789      34      F         Freshmen          2.10   
+
+CS1C STUDENTS: 
+Name:            Students ID:     Phone Number:    Age:    Gender:   Class Standing:   GPA:   Total Score         Python Kknowledge   Graduation Date     
+---------------- ---------------- ---------------- ------- --------- ----------------- ------ ------------------- ------------------- ------------------- 
+
+Adele            667788           949-665-1234     32      F         Freshmen          3.30   500                 Yes                 12/12/2021          
+
+Taylor Swift     156789           248-555-6543     30      F         Sophomore         3.90   700                 No                  05/11/2021          
+
+Bruno Mars       876543           703-703-7654     35      M         Sophomore         3.20   800                 Yes                 12/11/2021          
+
+Saving session...completed.
+
+[Process completed]

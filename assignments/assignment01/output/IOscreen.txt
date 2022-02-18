@@ -1,0 +1,174 @@
+*******************************************************
+* PROGRAMMED BY : Bryce Berwald
+* CLASS         : CS1C
+* SECTION       : MW: 7:30PM-10:50PM
+* ASSIGNMENT #1 : Deck of Cards
+*******************************************************
+
+BEFORE SHUFFLING BEGINS... (Deck 1)
+****   i:0    Card #:2    Suit:HEARTS            ****
+****   i:1    Card #:3    Suit:HEARTS            ****
+****   i:2    Card #:4    Suit:HEARTS            ****
+****   i:3    Card #:5    Suit:HEARTS            ****
+****   i:4    Card #:6    Suit:HEARTS            ****
+****   i:5    Card #:7    Suit:HEARTS            ****
+****   i:6    Card #:8    Suit:HEARTS            ****
+****   i:7    Card #:9    Suit:HEARTS            ****
+****   i:8    Card #:10   Suit:HEARTS            ****
+****   i:9    Card #:J    Suit:HEARTS            ****
+****   i:10   Card #:Q    Suit:HEARTS            ****
+****   i:11   Card #:K    Suit:HEARTS            ****
+****   i:12   Card #:A    Suit:HEARTS            ****
+****   i:13   Card #:2    Suit:DIAMONDS          ****
+****   i:14   Card #:3    Suit:DIAMONDS          ****
+****   i:15   Card #:4    Suit:DIAMONDS          ****
+****   i:16   Card #:5    Suit:DIAMONDS          ****
+****   i:17   Card #:6    Suit:DIAMONDS          ****
+****   i:18   Card #:7    Suit:DIAMONDS          ****
+****   i:19   Card #:8    Suit:DIAMONDS          ****
+****   i:20   Card #:9    Suit:DIAMONDS          ****
+****   i:21   Card #:10   Suit:DIAMONDS          ****
+****   i:22   Card #:J    Suit:DIAMONDS          ****
+****   i:23   Card #:Q    Suit:DIAMONDS          ****
+****   i:24   Card #:K    Suit:DIAMONDS          ****
+****   i:25   Card #:A    Suit:DIAMONDS          ****
+****   i:26   Card #:2    Suit:CLUBS             ****
+****   i:27   Card #:3    Suit:CLUBS             ****
+****   i:28   Card #:4    Suit:CLUBS             ****
+****   i:29   Card #:5    Suit:CLUBS             ****
+****   i:30   Card #:6    Suit:CLUBS             ****
+****   i:31   Card #:7    Suit:CLUBS             ****
+****   i:32   Card #:8    Suit:CLUBS             ****
+****   i:33   Card #:9    Suit:CLUBS             ****
+****   i:34   Card #:10   Suit:CLUBS             ****
+****   i:35   Card #:J    Suit:CLUBS             ****
+****   i:36   Card #:Q    Suit:CLUBS             ****
+****   i:37   Card #:K    Suit:CLUBS             ****
+****   i:38   Card #:A    Suit:CLUBS             ****
+****   i:39   Card #:2    Suit:SPADES            ****
+****   i:40   Card #:3    Suit:SPADES            ****
+****   i:41   Card #:4    Suit:SPADES            ****
+****   i:42   Card #:5    Suit:SPADES            ****
+****   i:43   Card #:6    Suit:SPADES            ****
+****   i:44   Card #:7    Suit:SPADES            ****
+****   i:45   Card #:8    Suit:SPADES            ****
+****   i:46   Card #:9    Suit:SPADES            ****
+****   i:47   Card #:10   Suit:SPADES            ****
+****   i:48   Card #:J    Suit:SPADES            ****
+****   i:49   Card #:Q    Suit:SPADES            ****
+****   i:50   Card #:K    Suit:SPADES            ****
+****   i:51   Card #:A    Suit:SPADES            ****
+
+AFTER ONE PERFECT SHUFFLE... (Deck 1)
+****   i:0    Card #:2    Suit:HEARTS            ****
+****   i:1    Card #:2    Suit:CLUBS             ****
+****   i:2    Card #:3    Suit:HEARTS            ****
+****   i:3    Card #:3    Suit:CLUBS             ****
+****   i:4    Card #:4    Suit:HEARTS            ****
+****   i:5    Card #:4    Suit:CLUBS             ****
+****   i:6    Card #:5    Suit:HEARTS            ****
+****   i:7    Card #:5    Suit:CLUBS             ****
+****   i:8    Card #:6    Suit:HEARTS            ****
+****   i:9    Card #:6    Suit:CLUBS             ****
+****   i:10   Card #:7    Suit:HEARTS            ****
+****   i:11   Card #:7    Suit:CLUBS             ****
+****   i:12   Card #:8    Suit:HEARTS            ****
+****   i:13   Card #:8    Suit:CLUBS             ****
+****   i:14   Card #:9    Suit:HEARTS            ****
+****   i:15   Card #:9    Suit:CLUBS             ****
+****   i:16   Card #:10   Suit:HEARTS            ****
+****   i:17   Card #:10   Suit:CLUBS             ****
+****   i:18   Card #:J    Suit:HEARTS            ****
+****   i:19   Card #:J    Suit:CLUBS             ****
+****   i:20   Card #:Q    Suit:HEARTS            ****
+****   i:21   Card #:Q    Suit:CLUBS             ****
+****   i:22   Card #:K    Suit:HEARTS            ****
+****   i:23   Card #:K    Suit:CLUBS             ****
+****   i:24   Card #:A    Suit:HEARTS            ****
+****   i:25   Card #:A    Suit:CLUBS             ****
+****   i:26   Card #:2    Suit:DIAMONDS          ****
+****   i:27   Card #:2    Suit:SPADES            ****
+****   i:28   Card #:3    Suit:DIAMONDS          ****
+****   i:29   Card #:3    Suit:SPADES            ****
+****   i:30   Card #:4    Suit:DIAMONDS          ****
+****   i:31   Card #:4    Suit:SPADES            ****
+****   i:32   Card #:5    Suit:DIAMONDS          ****
+****   i:33   Card #:5    Suit:SPADES            ****
+****   i:34   Card #:6    Suit:DIAMONDS          ****
+****   i:35   Card #:6    Suit:SPADES            ****
+****   i:36   Card #:7    Suit:DIAMONDS          ****
+****   i:37   Card #:7    Suit:SPADES            ****
+****   i:38   Card #:8    Suit:DIAMONDS          ****
+****   i:39   Card #:8    Suit:SPADES            ****
+****   i:40   Card #:9    Suit:DIAMONDS          ****
+****   i:41   Card #:9    Suit:SPADES            ****
+****   i:42   Card #:10   Suit:DIAMONDS          ****
+****   i:43   Card #:10   Suit:SPADES            ****
+****   i:44   Card #:J    Suit:DIAMONDS          ****
+****   i:45   Card #:J    Suit:SPADES            ****
+****   i:46   Card #:Q    Suit:DIAMONDS          ****
+****   i:47   Card #:Q    Suit:SPADES            ****
+****   i:48   Card #:K    Suit:DIAMONDS          ****
+****   i:49   Card #:K    Suit:SPADES            ****
+****   i:50   Card #:A    Suit:DIAMONDS          ****
+****   i:51   Card #:A    Suit:SPADES            ****
+
+FINAL DECK OUTCOME... (Deck 1)
+****   i:0    Card #:2    Suit:HEARTS            ****
+****   i:1    Card #:3    Suit:HEARTS            ****
+****   i:2    Card #:4    Suit:HEARTS            ****
+****   i:3    Card #:5    Suit:HEARTS            ****
+****   i:4    Card #:6    Suit:HEARTS            ****
+****   i:5    Card #:7    Suit:HEARTS            ****
+****   i:6    Card #:8    Suit:HEARTS            ****
+****   i:7    Card #:9    Suit:HEARTS            ****
+****   i:8    Card #:10   Suit:HEARTS            ****
+****   i:9    Card #:J    Suit:HEARTS            ****
+****   i:10   Card #:Q    Suit:HEARTS            ****
+****   i:11   Card #:K    Suit:HEARTS            ****
+****   i:12   Card #:A    Suit:HEARTS            ****
+****   i:13   Card #:2    Suit:DIAMONDS          ****
+****   i:14   Card #:3    Suit:DIAMONDS          ****
+****   i:15   Card #:4    Suit:DIAMONDS          ****
+****   i:16   Card #:5    Suit:DIAMONDS          ****
+****   i:17   Card #:6    Suit:DIAMONDS          ****
+****   i:18   Card #:7    Suit:DIAMONDS          ****
+****   i:19   Card #:8    Suit:DIAMONDS          ****
+****   i:20   Card #:9    Suit:DIAMONDS          ****
+****   i:21   Card #:10   Suit:DIAMONDS          ****
+****   i:22   Card #:J    Suit:DIAMONDS          ****
+****   i:23   Card #:Q    Suit:DIAMONDS          ****
+****   i:24   Card #:K    Suit:DIAMONDS          ****
+****   i:25   Card #:A    Suit:DIAMONDS          ****
+****   i:26   Card #:2    Suit:CLUBS             ****
+****   i:27   Card #:3    Suit:CLUBS             ****
+****   i:28   Card #:4    Suit:CLUBS             ****
+****   i:29   Card #:5    Suit:CLUBS             ****
+****   i:30   Card #:6    Suit:CLUBS             ****
+****   i:31   Card #:7    Suit:CLUBS             ****
+****   i:32   Card #:8    Suit:CLUBS             ****
+****   i:33   Card #:9    Suit:CLUBS             ****
+****   i:34   Card #:10   Suit:CLUBS             ****
+****   i:35   Card #:J    Suit:CLUBS             ****
+****   i:36   Card #:Q    Suit:CLUBS             ****
+****   i:37   Card #:K    Suit:CLUBS             ****
+****   i:38   Card #:A    Suit:CLUBS             ****
+****   i:39   Card #:2    Suit:SPADES            ****
+****   i:40   Card #:3    Suit:SPADES            ****
+****   i:41   Card #:4    Suit:SPADES            ****
+****   i:42   Card #:5    Suit:SPADES            ****
+****   i:43   Card #:6    Suit:SPADES            ****
+****   i:44   Card #:7    Suit:SPADES            ****
+****   i:45   Card #:8    Suit:SPADES            ****
+****   i:46   Card #:9    Suit:SPADES            ****
+****   i:47   Card #:10   Suit:SPADES            ****
+****   i:48   Card #:J    Suit:SPADES            ****
+****   i:49   Card #:Q    Suit:SPADES            ****
+****   i:50   Card #:K    Suit:SPADES            ****
+****   i:51   Card #:A    Suit:SPADES            ****
+
+Total perfect shuffles to original state was: 8
+Saving session...completed.
+
+[Process completed]
+

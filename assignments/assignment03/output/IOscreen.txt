@@ -1,0 +1,41 @@
+*******************************************************
+* PROGRAMMED BY : Bryce Berwald
+* CLASS         : CS1C
+* SECTION       : MW: 7:30PM-10:50PM
+* ASSIGNMENT #3 : Pointers
+*******************************************************
+
+BEFORE PURCHASE:
+Name of Equipment:            Cost:     Quantity:
+----------------------------- --------- --------- 
+Nike Basketball Shoes         $ 179.99     15         
+Under Armour T-shirt          $ 29.99      28         
+Brooks Running Shoes          $ 121.44     13         
+Asics Running Shoes           $ 165.88     12         
+Under Armour Shorts           $ 45.77      35         
+
+
+THE RECEIPT: 
+PURCHASED ITEMS:              COST:     AMOUNT: 
+----------------------------- --------- ------- 
+Nike Basketball Shoes         $ 179.99     4       
+Under Armour T-shirt          $ 29.99      6       
+Under Armour Shorts           $ 45.77      6       
+Asics Running Shoes           $ 165.88     1       
+----------------------------------------------- 
+TOTAL BEFORE TAX              $ 1340.40
+TOTAL AFTER TAX               $ 1444.28
+
+
+AFTER PURCHASE:
+Name of Equipment:            Cost:     Quantity:
+----------------------------- --------- --------- 
+Nike Basketball Shoes         $ 179.99     11         
+Under Armour T-shirt          $ 29.99      22         
+Brooks Running Shoes          $ 121.44     13         
+Asics Running Shoes           $ 165.88     11         
+Under Armour Shorts           $ 45.77      29         
+
+Saving session...completed.
+
+[Process completed]
