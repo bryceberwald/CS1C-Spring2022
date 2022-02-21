@@ -1,111 +1,63 @@
 /* ************************************************************
  * PROGRAMMER   :    BRYCE BERWALD
  * CLASS        :    CS1C MW 6:00-9:50pm
- * ASSIGNMENT # :    02
- * DUE DATE     :    Friday (02/04/22) @ 11:59pm
+ * ASSIGNMENT # :    04
+ * DUE DATE     :    Friday (02/21/22) @ 11:59pm
  **************************************************************/
 
 #include "functions.h"
 #include "Student.h"
-#include "CS1Cstudent.h"
+#include "SoftwareDeveloper.h"
 
 int main() {
     // Call function to print class header to the console.
     PrintClassHeader(cout);
 
-    // CHAR POINTER EXAMPLE BELOW!!!
+    // Create instance of SoftwareDeveloper class using default constructor.
+    SoftwareDeveloper Developer1;
 
-    // char *nameStr;
-    // nameStr = "str";
-    // cout << nameStr;
-    // nameStr = "hola";
-    // cout << nameStr;
+    // Add information to the developer at hand.
+    Developer1.setStudentsName("Joe Calculus");
+    Developer1.setStudentsID(64879);
+    Developer1.setStudentsPhoneNumber("949-555-1234");
+    Developer1.setStudentsAge(44);
+    Developer1.setStudentsGender("M");
+    Developer1.setStudentsClassStanding("Freshman");
+    Developer1.setStudentsGPA(3.3);
+    Developer1.setAddress("1234 Main Avenue");
+    Developer1.setCity("Laguna Niguel");
+    Developer1.setState("CA");
+    Developer1.setZipCode(92677);
 
-    // Create array to hold regular type of students.
-    Student students[STUDENTS_MAX_ARRAY_SIZE];
+    // Call copy constructor and deep copy method to reuse information if possible.
+    SoftwareDeveloper Developer2(Developer1);
+    Developer2.DeepCopyStudentInfo(Developer1);
 
-    // Test data used with non-default constructors.
-    Student Celine("Celine Dion", 444444, "949-555-1234", 52, "F", "Freshmen", 4.0);
-    Student Madonna("Madonna", 123456, "714-555-5555", 62, "F", "Sophomore", 3.23);
-    Student Jennifer("Jennifer Lopez", 876542, "760-703-1234", 51, "F", "Sophomore", 3.79);
-    
-    Student Lady;
+    // Add the information needed to the developer.
+    Developer2.setStudentsName("Mary Algebra");
+    Developer2.setStudentsID(76309);
+    Developer2.setStudentsPhoneNumber("213-555-5555");
+    Developer2.setStudentsAge(21);
+    Developer2.setStudentsGender("F");
+    Developer2.setStudentsClassStanding("Junior");
+    Developer2.setStudentsGPA(4.0);
+    Developer2.setAddress("3333 Marguerite Pkwy");
+    Developer2.setCity("Mission Viejo");
+    Developer2.setZipCode(92646);
 
-    // Use mutator methods in the Student Class.
-    Lady.setStudentsName("Lady Gaga");
-    Lady.setStudentsID(777744);
-    Lady.setStudentsPhoneNumber("213-55-6789");
-    Lady.setStudentsAge(34);
-    Lady.setStudentsGender("F");
-    Lady.setStudentsClassStanding("Freshmen");
-    Lady.setStudentsGPA(2.1);
+    // Call non-default constructor.
+    SoftwareDeveloper Developer3("9876 Elm Street", "San Clemente", "CA", 92672);
 
-    // Fill array with new Student objects created.
-    students[0] = Celine;
-    students[1] = Madonna;
-    students[2] = Jennifer;
-    students[3] = Lady;
+    // Call method to add student info for the developer.
+    Developer3.AddStudentInfo("Joe Trig", 10192, "714-703-1234", 28, "F", "Senior", 2.9);
 
-    cout << "\nSTUDENTS: ";
+    // Print header before displaying all of the software developers.
+    PrintSoftwareDeveloperHeader();
 
-    // Call function to print display header for Student objects.
-    PrintStudentObjectHeader();
-
-    // Loop through array, displaying new contents.
-    for(int i = 0; i < STUDENTS_MAX_ARRAY_SIZE; i++) {
-        students[i].PrintStudentInformation();
-    }
-
-    // Array used to hold all CS1Cstudent objects created.
-    CS1Cstudent cs1cStudents[CS1C_STUDENTS_MAX_ARRAY_SIZE];
-
-    // Test data used with non-deafault class constructor.
-    CS1Cstudent Adele(500, true, "12/12/2021");
-    CS1Cstudent Taylor(700, false, "05/11/2021");
-    CS1Cstudent Bruno(800, true, "12/11/2021");
-
-    // 6. Write software to change the name, age, phone number, student ID and class standing of a CS1Cstudent object.
-    // CS1Cstudent class mutator methods used to set private data within inheritated Student class.
-    Adele.setStudentsName("Adele");
-    Adele.setStudentsID(667788);
-    Adele.setStudentsPhoneNumber("949-665-1234");
-    Adele.setStudentsAge(32);
-    Adele.setStudentsGender("F");
-    Adele.setStudentsClassStanding("Freshmen");
-    Adele.setStudentsGPA(3.3);
-
-    Taylor.setStudentsName("Taylor Swift");
-    Taylor.setStudentsID(156789);
-    Taylor.setStudentsPhoneNumber("248-555-6543");
-    Taylor.setStudentsAge(30);
-    Taylor.setStudentsGender("F");
-    Taylor.setStudentsClassStanding("Sophomore");
-    Taylor.setStudentsGPA(3.9);
-
-    Bruno.setStudentsName("Bruno Mars");
-    Bruno.setStudentsID(876543);
-    Bruno.setStudentsPhoneNumber("703-703-7654");
-    Bruno.setStudentsAge(35);
-    Bruno.setStudentsGender("M");
-    Bruno.setStudentsClassStanding("Sophomore");
-    Bruno.setStudentsGPA(3.2);
-
-    // Fill array with new CS1Cstudent objects created.
-    cs1cStudents[0] = Adele;
-    cs1cStudents[1] = Taylor;
-    cs1cStudents[2] = Bruno;
-
-    cout << "\nCS1C STUDENTS: ";
-
-    // Call function to dipslay the CS1Cstudent class header as needed.
-    PrintCS1CStudentObjectHeader();
-
-    // Loop through cs1cStudents array, displaying each students information.
-    for(int i = 0; i < CS1C_STUDENTS_MAX_ARRAY_SIZE; i++) {
-        cs1cStudents[i].PrintStudentInformation();
-    }
-
-    cout << endl;
+    // Print all developers information to the console.
+    Developer1.PrintInformation();
+    Developer2.PrintInformation();
+    Developer3.PrintInformation();
 
     return 0;
 }

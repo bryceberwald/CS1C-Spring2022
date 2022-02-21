@@ -1,8 +1,8 @@
 /* ************************************************************
  * PROGRAMMER   :    BRYCE BERWALD
  * CLASS        :    CS1C MW 6:00-9:50pm
- * ASSIGNMENT # :    02
- * DUE DATE     :    Friday (02/04/22) @ 11:59pm
+ * ASSIGNMENT # :    04
+ * DUE DATE     :    Friday (02/21/22) @ 11:59pm
  **************************************************************/
 
 #ifndef STUDENT_H
@@ -130,19 +130,18 @@ class Student
 		float getStudentsGPA() const;
 
 		/******************************************************
+		* Class method for display the header for information.
+		*******************************************************/
+		void PrintHeader() const;
+
+		/******************************************************
 		* Class method for display the Student class attributes
 		* to the console as needed.
 		*******************************************************/
-		void PrintStudentInformation() const;
+		void PrintInformation() const;
 
     protected:
-        // string studentsName;
-        // int studentsID;
-        // string studentsPhoneNumber;
-        // int studentsAge;
-        // string studentsGender;
-        // string studentsClassStanding;
-        // float studentsGPA;
+		// Nothing!
 
     private:
         string studentsName;
@@ -152,9 +151,6 @@ class Student
         string studentsGender;
         string studentsClassStanding;
         float studentsGPA;
-
-		
 };
-
 
 #endif

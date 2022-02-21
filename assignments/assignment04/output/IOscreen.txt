@@ -1,0 +1,18 @@
+*******************************************************
+* PROGRAMMED BY : Bryce Berwald
+* CLASS         : CS1C
+* SECTION       : MW: 7:30PM-10:50PM
+* ASSIGNMENT #4 : Software Developer
+*******************************************************
+
+Name:            Students ID:     Phone Number:    Age:    Gender:   Class Standing:   GPA:     Address:              City:          State:    Zip Code: 
+---------------- ---------------- ---------------- ------- --------- ----------------- -------- --------------------- -------------- --------- --------- 
+
+Joe Calculus     64879            949-555-1234     44      M         Freshman          3.30     1234 Main Avenue      Laguna Niguel  CA        92677     
+
+Mary Algebra     76309            213-555-5555     21      F         Junior            4.00     3333 Marguerite Pkwy  Mission Viejo  CA        92646     
+
+Joe Trig         10192            714-703-1234     28      F         Senior            2.90     9876 Elm Street       San Clemente   CA        92672     
+Saving session...completed.
+
+[Process completed]

@@ -1,8 +1,8 @@
 /* ************************************************************
  * PROGRAMMER   :    BRYCE BERWALD
  * CLASS        :    CS1C MW 6:00-9:50pm
- * ASSIGNMENT # :    02
- * DUE DATE     :    Friday (02/04/22) @ 11:59pm
+ * ASSIGNMENT # :    04
+ * DUE DATE     :    Friday (02/21/22) @ 11:59pm
  **************************************************************/
 
 #include "Student.h"
@@ -74,6 +74,7 @@ void Student::setStudentsID(int id){
 void Student::setStudentsPhoneNumber(string phoneNumber){
     studentsPhoneNumber = phoneNumber;
 }
+
 
 /******************************************************
 * Mutator method for Student class to change the
@@ -175,11 +176,33 @@ float Student::getStudentsGPA() const{
 
 
 /******************************************************
+* Class method for dispalying the header to the
+console, before ouputting attribute information.
+*******************************************************/
+void Student::PrintHeader() const{
+    cout << endl << left << setw(17);
+	cout << "Name: " << setw(17) << "Students ID: "
+         << setw(17) << "Phone Number: " << setw(8) << "Age: "
+         << setw(10) << "Gender: " << setw(18) << "Class Standing: "
+         << setw(9) << "GPA: " << endl;
+
+    cout << right << setfill('-');
+    cout << setw(17) << " ";
+    cout << setw(17) << " ";
+    cout << setw(17) << " ";
+    cout << setw(8) << " ";
+    cout << setw(10) << " ";
+    cout << setw(18) << " ";
+    cout << setw(9) << " ";
+    cout << left << setfill(' ') << endl;
+}
+
+
+/******************************************************
 * Class method for dispalying the attributes of the
 Student class object as needed.
 *******************************************************/
-void Student::PrintStudentInformation() const {
-
+void Student::PrintInformation() const {
     cout << endl << left;
     cout << setw(17) << getStudentsName();
     cout << setw(17) << getStudentsID();
@@ -187,8 +210,7 @@ void Student::PrintStudentInformation() const {
     cout << setw(8) << getStudentsAge();
     cout << setw(10) << getStudentsGender();
     cout << setw(18) << getStudentsClassStanding();
-    cout << setw(7) << fixed << setprecision(2) << getStudentsGPA();
+    cout << setw(9) << fixed << setprecision(2) << getStudentsGPA();
     cout << endl;
-
 }
 
