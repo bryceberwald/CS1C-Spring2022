@@ -6,26 +6,35 @@
  **************************************************************/
 
 #include "functions.h"
+#include "Square.h"
+#include "Triangle.h"
 
 int main() {
     // Call function to display class header to the console.
     PrintClassHeader(cout);
 
-    bool inSession = true;
+    Square Square;
+    Triangle Triangle;
+    float sideLength = 0.0;
 
-    while(inSession) {
-        //Print menu options to the console for the user.
-		cout << "\nMENU OPTIONS" << endl << endl;
-		cout << "---------------------------------------" << endl;
-		cout << "Type \"1\" to Set Triangle Side Lengths (3 sides)." << endl;
-		cout << "Type \"2\" to Set Square Side Length (1 side)." << endl;
-		cout << "Type \"3\" to Print the Area of the Triangle." << endl;
-		cout << "Type \"4\" to Print the Perimeter of the Triangle." << endl;
-        cout << "Type \"5\" to Print the Area of the Square." << endl;
-        cout << "Type \"6\" to Print the Perimeter of the Square." << endl;
-		cout << "---------------------------------------" << endl;
-		cout << "Please enter an option 1-6 (0 to exit): ";
+    cout << "\nPlease enter the side length for a \"Square\": ";
+    cin >> sideLength;
+    Square.setSideLength(sideLength);
+
+    // Print Area & Perimeter for the SQUARE.
+    PrintPerimeter(Square);
+    PrintArea(Square);
+
+    for(int i = 1; i < 4; i++){
+        cout << "\nPlease enter side length #" << i << " for a \"Triangle\": ";
+        cin >> sideLength;
+        Triangle.setSideLength(i, sideLength);
     }
+
+    // Print Area & Perimeter for the TRIANGLE.
+    PrintPerimeter(Triangle);
+    PrintArea(Triangle);
+
 
     return 0;
 }

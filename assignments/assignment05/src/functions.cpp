@@ -35,15 +35,15 @@ void PrintClassHeader(ostream &output) {
 /* ************************************************************
  * 
  **************************************************************/
-void PrintPerimeter(Shape shape){
-
+void PrintPerimeter(Shape &shape){
+	cout << "perimeter is " << shape.CalculatePerimeter();
 }
 
 
 /* ************************************************************
  * 
  **************************************************************/
-void PrintArea(Shape shape){
-
+void PrintArea(Shape &shape){
+	cout << "area is " << shape.CalculateArea();
 }
 

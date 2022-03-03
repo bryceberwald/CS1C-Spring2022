@@ -17,8 +17,8 @@ using namespace std;
 
 // Function Prototypes
 void PrintClassHeader(ostream &output);
-void PrintPerimeter(Shape shape);
-void PrintArea(Shape shape);
+void PrintPerimeter(Shape &shape);
+void PrintArea(Shape &shape);
 
 
 #endif
