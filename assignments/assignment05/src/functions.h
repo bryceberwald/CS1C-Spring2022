@@ -20,5 +20,4 @@ void PrintClassHeader(ostream &output);
 void PrintPerimeter(Shape &shape);
 void PrintArea(Shape &shape);
 
-
 #endif

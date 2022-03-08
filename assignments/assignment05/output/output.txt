@@ -1,0 +1,26 @@
+➜  src git:(master) ✗ g++ -o assignment05 *.cpp
+➜  src git:(master) ✗ ./assignment05 Bryce Berwald
+*******************************************************
+* PROGRAMMED BY : Bryce Berwald
+* CLASS         : CS1C
+* SECTION       : MW: 7:30PM-9:50PM
+* ASSIGNMENT #5 : Abstract Classes
+*******************************************************
+
+Please enter the side length for a "Square": 8.88
+
+Perimeter is 35.52
+Area is 78.8544
+
+Please enter side length #1 for a "Triangle": 10.0
+Please enter side length #2 for a "Triangle": 24.0
+Please enter side length #3 for a "Triangle": 26.0
+
+Perimeter is 60
+Area is 120
+
+Executable Name: ./assignment05
+My First Name is: Bryce
+My Last Name is: Berwald
+The 3rd letter in my first name is... y
+The 3rd letter in my last name is... r

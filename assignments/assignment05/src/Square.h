@@ -11,7 +11,7 @@
 #include "Shape.h"
 
 /***********************************************************
- * 
+ * Class Square, derived from abstract class Shape.
  **********************************************************/
 class Square : public Shape {
     public:
@@ -27,6 +27,5 @@ class Square : public Shape {
     private:
         float sideLength;
 };
-
 
 #endif

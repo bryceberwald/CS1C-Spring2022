@@ -8,7 +8,9 @@
 #include "Triangle.h"
 
 /***********************************************************
- * 
+ * This is the constructor method for the class named
+ * Triangle, and the three variables associated with the
+ * class are initialized to a value of zero.
  **********************************************************/
 Triangle::Triangle(){
     this->sideOne = 0.0;
@@ -18,7 +20,8 @@ Triangle::Triangle(){
 
 
 /***********************************************************
- * 
+ * This is the destructor method for the class named
+ * Triangle.
  **********************************************************/
 Triangle::~Triangle(){
 
@@ -26,7 +29,10 @@ Triangle::~Triangle(){
 
 
 /***********************************************************
- * 
+ * This is the method for calculating the perimeter of a
+ * triangle using the three private variables associated
+ * with the triangle class. The perimeter will be returned
+ * as a floating point value.
  **********************************************************/
 float Triangle::CalculatePerimeter(){
     return (sideOne + sideTwo + sideThree);
@@ -34,7 +40,11 @@ float Triangle::CalculatePerimeter(){
 
 
 /***********************************************************
- * 
+ * This is the method for calculating the area of a triangle
+ * with the three variables stored in the private portion of
+ * the class named Triangle. The area will be returned as
+ * a floating point value after calculations have been 
+ * performed.
  **********************************************************/
 float Triangle::CalculateArea(){
     float semiPerimeter = (this->sideOne + this->sideTwo + this->sideThree) / 2;
@@ -45,7 +55,11 @@ float Triangle::CalculateArea(){
 
 
 /***********************************************************
- * 
+ * This is the method for setting the side lengths of a 
+ * triangle. The method uses two parameters to distingiush
+ * between what side is to be assigned the length value being
+ * passed at the time. No value is returned and this is a 
+ * mutator method.
  **********************************************************/
 void Triangle::setSideLength(int side, float length){
     switch(side){
@@ -70,7 +84,11 @@ void Triangle::setSideLength(int side, float length){
 
 
 /***********************************************************
- * 
+ * This is the method for getting the side length of a 
+ * traingle. One parameter is passed to the function to
+ * help the method determine which side length of the three
+ * lengths total is to be returned. The side length will be
+ * returned as a floating point value.
  **********************************************************/
 float Triangle::getSideLength(int side) const {
     switch(side){

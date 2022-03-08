@@ -8,7 +8,9 @@
 #include "functions.h"
 
 /* ************************************************************
- * 
+ * This function will display the class header to the console
+ * as needed. One variable is passed by reference for the header
+ * to be displayed in the console or a file.
  **************************************************************/
 void PrintClassHeader(ostream &output) {
 
@@ -33,17 +35,23 @@ void PrintClassHeader(ostream &output) {
 
 
 /* ************************************************************
- * 
+ * This functionn will will print the perimeter of the shape 
+ * object being passed by reference. Shape is an abstract class,
+ * and the object is never defined, so the object is getting
+ * passed by reference.
  **************************************************************/
 void PrintPerimeter(Shape &shape){
-	cout << "perimeter is " << shape.CalculatePerimeter();
+	cout << "Perimeter is " << shape.CalculatePerimeter() << endl;
 }
 
 
 /* ************************************************************
- * 
+ * This function will print the area of the shape object being
+ * passed by reference. Shape is an abstract class, which the
+ * object is never initiated, so the shape object must be
+ * passed by reference.
  **************************************************************/
 void PrintArea(Shape &shape){
-	cout << "area is " << shape.CalculateArea();
+	cout << "Area is " << shape.CalculateArea() << endl;
 }
 

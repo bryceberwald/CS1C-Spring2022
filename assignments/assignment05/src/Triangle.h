@@ -14,7 +14,7 @@
 using namespace std;
 
 /***********************************************************
- * 
+ * Class Triangle, derived from abstract class Shape.
  **********************************************************/
 class Triangle : public Shape {
     public:
@@ -33,6 +33,5 @@ class Triangle : public Shape {
         float sideThree;
 
 };
-
 
 #endif

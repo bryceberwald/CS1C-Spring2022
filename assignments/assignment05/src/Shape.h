@@ -9,7 +9,7 @@
 #define SHAPE_H
 
 /***********************************************************
- * 
+ * Abstract Class named Shape
  **********************************************************/
 class Shape {
     public:
@@ -23,6 +23,5 @@ class Shape {
     private:
 
 };
-
 
 #endif
