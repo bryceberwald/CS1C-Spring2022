@@ -154,6 +154,14 @@ int main() {
     Student1.PrintInformation();
     cout << endl;
 
+    // Create a new student object to be used with overloaded operator function calls.
+    Student student3;
+
+    // Call the extraction overloaded operator friend function.
+    operator>>(cin, student3);
+
+    // Call the insertion overloaded operator friend function.
+    operator<<(cout, student3);
 
     return 0;
 }

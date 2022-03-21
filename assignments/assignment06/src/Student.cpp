@@ -64,6 +64,67 @@ bool ageEqualityCheck(Student student1, Student student2){
 
 
 /******************************************************
+* This is a friend function/overloader operator function
+* for the insertion stream. This function will display
+* the passed student's information to the console.
+*******************************************************/
+void operator<<(ostream& output, Student& student){
+    cout << "\n*** Student's Information: ***";
+    output << "\nStudent Name: " << student.getStudentsName();
+    output << "\nStudent ID: " << student.getStudentsID();
+    output << "\nStudent Phone #: " << student.getStudentsPhoneNumber();
+    output << "\nStudent Age: " << student.getStudentsAge();
+    output << "\nStudent Gender: " << student.getStudentsGender();
+    output << "\nStudent Class Standing: " << student.getStudentsClassStanding();
+    output << "\nStudent GPA: " << student.getStudentsGPA();
+}
+
+
+/******************************************************
+* This is a friend function/overloader operator function
+* for the extraction operator. This function will recieve
+* input through the passed parameter, storing to the
+* passed students address.
+*******************************************************/
+void operator>>(istream& input, Student& student){
+
+    string inputStr;   // Used to input type string values.
+    int inputInt;      // Used to input type integer values.
+    float inputFloat;  // Used to input type floating point values.
+
+    cout << "\n*** Enter Student's Information: *** \n";
+    
+    cout << "Enter Student's Name: ";
+    getline(input, inputStr);
+    student.setStudentsName(inputStr);
+
+    cout << "Enter Student's ID: ";
+    input >> inputInt;
+    student.setStudentsID(inputInt);
+
+    cout << "Enter Student's Phone #: ";
+    input >> inputStr;
+    student.setStudentsPhoneNumber(inputStr);
+
+    cout << "Enter Student's Age: ";
+    input >> inputInt;
+    student.setStudentsAge(inputInt);
+
+    cout << "Enter Student's Gender: ";
+    input >> inputStr;
+    student.setStudentsGender(inputStr);
+    
+    cout << "Enter Student's Class Standing: ";
+    input >> inputStr;
+    student.setStudentsClassStanding(inputStr);
+
+    cout << "Enter Student's GPA: ";
+    input >> inputFloat;
+    student.setStudentsGPA(inputFloat);
+}
+
+
+/******************************************************
 * Overloaded equality operator function for the
 * student class object to have age equality checked.
 *******************************************************/

@@ -1,0 +1,118 @@
+*******************************************************
+* PROGRAMMED BY : Bryce Berwald
+* CLASS         : CS1C
+* SECTION       : MW: 7:30PM-10:50PM
+* ASSIGNMENT #6 : Friend Functions/Operator Overloading
+*******************************************************
+
+Name:            Students ID:     Phone Number:    Age:    Gender:   Class Standing:   GPA:     Address:              City:          State:    Zip Code: 
+---------------- ---------------- ---------------- ------- --------- ----------------- -------- --------------------- -------------- --------- --------- 
+
+Bryce Berwald    1212962          949-555-1234     28      M         Senior            3.80     1834 W Arrow Rte      Upland         CA        91876     
+
+
+Name:            Students ID:     Phone Number:    Age:    Gender:   Class Standing:   GPA:     
+---------------- ---------------- ---------------- ------- --------- ----------------- -------- 
+
+Cindy Saliba     1234567          949-555-7777     28      F         Graduated         4.00     
+
+
+Bryce Berwald and Cindy Saliba have the same age. 
+
+
+Name:            Students ID:     Phone Number:    Age:    Gender:   Class Standing:   GPA:     Address:              City:          State:    Zip Code: 
+---------------- ---------------- ---------------- ------- --------- ----------------- -------- --------------------- -------------- --------- --------- 
+
+Bryce Berwald    1212962          949-555-1234     28      M         Senior            3.80     1834 W Arrow Rte      Upland         CA        91876     
+
+
+Name:            Students ID:     Phone Number:    Age:    Gender:   Class Standing:   GPA:     
+---------------- ---------------- ---------------- ------- --------- ----------------- -------- 
+
+Cindy Saliba     1234567          949-555-7777     26      F         Graduated         4.00     
+
+
+Bryce Berwald and Cindy Saliba do NOT have the same age. 
+
+
+Name:            Students ID:     Phone Number:    Age:    Gender:   Class Standing:   GPA:     
+---------------- ---------------- ---------------- ------- --------- ----------------- -------- 
+
+Cindy Saliba     1234567          949-555-7777     26      F         Graduated         4.00     
+
+
+Name:            Students ID:     Phone Number:    Age:    Gender:   Class Standing:   GPA:     
+---------------- ---------------- ---------------- ------- --------- ----------------- -------- 
+
+Bob Joe          2233445          949-555-0000     26      M         Sophomore         3.20     
+
+
+Cindy Saliba and Bob Joe have the same age. 
+
+
+Name:            Students ID:     Phone Number:    Age:    Gender:   Class Standing:   GPA:     
+---------------- ---------------- ---------------- ------- --------- ----------------- -------- 
+
+Cindy Saliba     1234567          949-555-7777     26      F         Graduated         4.00     
+
+
+Name:            Students ID:     Phone Number:    Age:    Gender:   Class Standing:   GPA:     
+---------------- ---------------- ---------------- ------- --------- ----------------- -------- 
+
+Bob Joe          2233445          949-555-0000     99      M         Sophomore         3.20     
+
+
+Cindy Saliba and Bob Joe do NOT have the same age. 
+
+
+Name:            Students ID:     Phone Number:    Age:    Gender:   Class Standing:   GPA:     
+---------------- ---------------- ---------------- ------- --------- ----------------- -------- 
+
+Bob Joe          2233445          949-555-0000     99      M         Sophomore         3.20     
+
+
+7 years have been added to the age of Bob Joe.
+
+
+Name:            Students ID:     Phone Number:    Age:    Gender:   Class Standing:   GPA:     
+---------------- ---------------- ---------------- ------- --------- ----------------- -------- 
+
+Bob Joe          2233445          949-555-0000     106     M         Sophomore         3.20     
+
+
+Name:            Students ID:     Phone Number:    Age:    Gender:   Class Standing:   GPA:     
+---------------- ---------------- ---------------- ------- --------- ----------------- -------- 
+
+Cindy Saliba     1234567          949-555-7777     26      F         Graduated         4.00     
+
+
+10 years have been added to the age of Cindy Saliba.
+
+
+Name:            Students ID:     Phone Number:    Age:    Gender:   Class Standing:   GPA:     
+---------------- ---------------- ---------------- ------- --------- ----------------- -------- 
+
+Cindy Saliba     1234567          949-555-7777     36      F         Graduated         4.00     
+
+
+*** Enter Student's Information: *** 
+Enter Student's Name: Frank Riddles
+Enter Student's ID: 7712779
+Enter Student's Phone #: 714-333-3030
+Enter Student's Age: 38
+Enter Student's Gender: M
+Enter Student's Class Standing: Junior
+Enter Student's GPA: 2.99
+
+*** Student's Information: ***
+Student Name: Frank Riddles
+Student ID: 7712779
+Student Phone #: 714-333-3030
+Student Age: 38
+Student Gender: M
+Student Class Standing: Junior
+Student GPA: 2.99
+Saving session...completed.
+
+[Process completed]
+

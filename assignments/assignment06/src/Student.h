@@ -12,6 +12,8 @@
 #include <iomanip>  // For manipulating the input & output.
 #include <string>   // For strings to be used.
 #include <sstream>  // For string stream to be used.
+#include <ostream>
+#include <istream>
 
 using namespace std;
 
@@ -54,11 +56,13 @@ class Student
 		/******************************************************
 		*************     FRIEND FUNCTIONS    *****************
 		*******************************************************/
-		friend bool ageEqualityCheck(Student student1, Student student2);
 
 		/******************************************************
-		********     OPERATOR OVERLOADED FUNCTIONS    *********
+		****     FRIEND / OPERATOR OVERLOADED FUNCTIONS    ****
 		*******************************************************/
+		friend bool ageEqualityCheck(Student student1, Student student2);
+		friend void operator<<(ostream& output, Student& student);
+		friend void operator>>(istream& input, Student& student);
 		bool operator==(const Student& student1)const;
 		void operator+();
 
@@ -67,7 +71,7 @@ class Student
 		*******************************************************/
 
 		/******************************************************
-		* NEW METHOD - For adding integer to students age.
+		* Class method for adding integer value to age.
 		*******************************************************/
 		void addIntegerToAge(int addedValue);
 
