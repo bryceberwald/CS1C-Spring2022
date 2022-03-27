@@ -1,0 +1,34 @@
+(EXECUTION #1)
+*******************************************************
+* PROGRAMMED BY : Bryce Berwald
+* CLASS         : CS1C
+* SECTION       : MW: 7:30PM-9:50PM
+* ASSIGNMENT #7 : Exceptions
+*******************************************************
+
+Valid Length Entry.
+Assertion failed: (currentSideLength < 100), function main, file main.cpp, line 24.
+[1]    17605 abort      
+
+Saving session...completed.
+
+[Process completed]
+
+
+(EXECUTION #2)
+*******************************************************
+* PROGRAMMED BY : Bryce Berwald
+* CLASS         : CS1C
+* SECTION       : MW: 7:30PM-9:50PM
+* ASSIGNMENT #7 : Exceptions
+*******************************************************
+
+Valid Length Entry.
+
+Length of -3 is less than zero, which is NOT allowed.
+
+Valid Length Entry.
+
+Saving session...completed.
+
+[Process completed]
