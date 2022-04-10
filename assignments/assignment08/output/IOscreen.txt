@@ -1,0 +1,474 @@
+*******************************************************
+* PROGRAMMED BY : Bryce Berwald
+* CLASS         : CS1C
+* SECTION       : MW: 7:30PM-9:50PM
+* ASSIGNMENT #8 : Templates
+*******************************************************
+
+The size of the STL Queue is: 3
+
+Queue Class Template has been Initialized!
+
+Queue is EMPTY!!
+The Current size is: 0
+
+CURRENT QUEUE: 
+a
+
+Queue is NOT EMPTY!
+The Current size is: 1
+
+CURRENT QUEUE: 
+a
+b
+
+The Front item is: a
+
+CURRENT QUEUE: 
+a
+b
+c
+
+CURRENT QUEUE: 
+a
+b
+c
+d
+
+CURRENT QUEUE: 
+a
+b
+c
+d
+e
+
+CURRENT QUEUE: 
+a
+b
+c
+d
+e
+f
+
+CURRENT QUEUE: 
+b
+c
+d
+e
+f
+
+CURRENT QUEUE: 
+c
+d
+e
+f
+
+CURRENT QUEUE: 
+d
+e
+f
+
+CURRENT QUEUE: 
+d
+e
+f
+g
+
+CURRENT QUEUE: 
+d
+e
+f
+g
+h
+
+CURRENT QUEUE: 
+d
+e
+f
+g
+h
+i
+
+CURRENT QUEUE: 
+d
+e
+f
+g
+h
+i
+j
+
+CURRENT QUEUE: 
+d
+e
+f
+g
+h
+i
+j
+k
+
+CURRENT QUEUE: 
+e
+f
+g
+h
+i
+j
+k
+
+CURRENT QUEUE: 
+f
+g
+h
+i
+j
+k
+
+CURRENT QUEUE: 
+g
+h
+i
+j
+k
+
+CURRENT QUEUE: 
+h
+i
+j
+k
+
+CURRENT QUEUE: 
+i
+j
+k
+
+Queue Class Template has been Initialized!
+
+Queue is EMPTY!!
+The Current size is: 0
+
+CURRENT QUEUE: 
+1
+
+Queue is NOT EMPTY!
+The Current size is: 1
+
+CURRENT QUEUE: 
+1
+2
+
+The Front item is: 1
+
+CURRENT QUEUE: 
+1
+2
+3
+
+CURRENT QUEUE: 
+1
+2
+3
+4
+
+CURRENT QUEUE: 
+1
+2
+3
+4
+5
+
+CURRENT QUEUE: 
+1
+2
+3
+4
+5
+6
+
+CURRENT QUEUE: 
+2
+3
+4
+5
+6
+
+CURRENT QUEUE: 
+3
+4
+5
+6
+
+CURRENT QUEUE: 
+4
+5
+6
+
+CURRENT QUEUE: 
+5
+6
+
+CURRENT QUEUE: 
+5
+6
+7
+
+CURRENT QUEUE: 
+5
+6
+7
+8
+
+CURRENT QUEUE: 
+5
+6
+7
+8
+9
+
+CURRENT QUEUE: 
+6
+7
+8
+9
+
+CURRENT QUEUE: 
+7
+8
+9
+
+CURRENT QUEUE: 
+8
+9
+
+Queue Class Template has been Initialized!
+
+Queue is EMPTY!!
+The Current size is: 0
+
+CURRENT QUEUE: 
+1.1
+
+Queue is NOT EMPTY!
+The Current size is: 1
+
+CURRENT QUEUE: 
+1.1
+2.1
+
+The Front item is: 1.1
+
+CURRENT QUEUE: 
+1.1
+2.1
+3.3
+
+CURRENT QUEUE: 
+1.1
+2.1
+3.3
+4.4
+
+CURRENT QUEUE: 
+1.1
+2.1
+3.3
+4.4
+5.5
+
+CURRENT QUEUE: 
+1.1
+2.1
+3.3
+4.4
+5.5
+6.6
+
+CURRENT QUEUE: 
+1.1
+2.1
+3.3
+4.4
+5.5
+6.6
+7.7
+
+CURRENT QUEUE: 
+2.1
+3.3
+4.4
+5.5
+6.6
+7.7
+
+CURRENT QUEUE: 
+2.1
+3.3
+4.4
+5.5
+6.6
+7.7
+8.8
+
+CURRENT QUEUE: 
+2.1
+3.3
+4.4
+5.5
+6.6
+7.7
+8.8
+9.9
+
+CURRENT QUEUE: 
+3.3
+4.4
+5.5
+6.6
+7.7
+8.8
+9.9
+
+CURRENT QUEUE: 
+4.4
+5.5
+6.6
+7.7
+8.8
+9.9
+
+CURRENT QUEUE: 
+5.5
+6.6
+7.7
+8.8
+9.9
+
+CURRENT QUEUE: 
+6.6
+7.7
+8.8
+9.9
+
+CURRENT QUEUE: 
+7.7
+8.8
+9.9
+
+Queue is NOT FULL!
+The Current size is: 3
+
+Checking IsFull() Queue class function...
+
+CURRENT QUEUE: 
+7.7
+8.8
+9.9
+999
+
+CURRENT QUEUE: 
+7.7
+8.8
+9.9
+999
+999
+
+CURRENT QUEUE: 
+7.7
+8.8
+9.9
+999
+999
+999
+
+CURRENT QUEUE: 
+7.7
+8.8
+9.9
+999
+999
+999
+999
+
+CURRENT QUEUE: 
+7.7
+8.8
+9.9
+999
+999
+999
+999
+999
+
+CURRENT QUEUE: 
+7.7
+8.8
+9.9
+999
+999
+999
+999
+999
+999
+
+CURRENT QUEUE: 
+7.7
+8.8
+9.9
+999
+999
+999
+999
+999
+999
+999
+
+CURRENT QUEUE: 
+7.7
+8.8
+9.9
+999
+999
+999
+999
+999
+999
+999
+999
+
+CURRENT QUEUE: 
+7.7
+8.8
+9.9
+999
+999
+999
+999
+999
+999
+999
+999
+999
+
+Queue is FULL!!
+The Current size is: 12
+
+
+Testing Copy Constructor for Queue Class...
+
+CURRENT QUEUE: 
+7.7
+8.8
+9.9
+999
+999
+999
+999
+999
+999
+999
+999
+999
+
+Saving session...completed.
+
