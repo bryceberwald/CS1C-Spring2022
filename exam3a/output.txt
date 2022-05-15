@@ -1,0 +1,34 @@
+*******************************************************
+* PROGRAMMED BY : Bryce Berwald
+* CLASS         : CS1C
+* SECTION       : MW: 7:30PM-10:50PM
+* EXAM #3a      : Shape Program
+*******************************************************
+
+Name = Circle, Area = 78.5398, Perimeter = 31.4159
+
+Shape: Circle
+Area: 78.5398
+Perimeter: 31.4159
+
+Name = Rectangle, Area = 9, Perimeter = 12
+
+Shape: Rectangle
+Area: 9
+Perimeter: 12
+
+Name = Square, Area = 100, Perimeter = 40
+
+Shape: Square
+Area: 100
+Perimeter: 40
+
+Name = Right Triangle, Area = 3, Perimeter = 8.60555
+
+Shape: Right Triangle
+Area: 3
+Perimeter: 8.60555
+
+Saving session...completed.
+
+[Process completed]
