@@ -7,9 +7,6 @@
 
 #include "Rectangle.h"
 
-/*********************************************************
- * 
- *********************************************************/
 Rectangle::Rectangle(){
     this->length = 0.0;
     this->width = 0.0;
@@ -17,9 +14,6 @@ Rectangle::Rectangle(){
 }
 
 
-/*********************************************************
- * 
- *********************************************************/
 Rectangle::Rectangle(float length, float width){
     this->length = length;
     this->width = width;
@@ -27,9 +21,6 @@ Rectangle::Rectangle(float length, float width){
 }
 
 
-/*********************************************************
- * 
- *********************************************************/
 Rectangle::Rectangle(float length, float width, string name){
     this->length = length;
     this->width = width;
@@ -37,33 +28,21 @@ Rectangle::Rectangle(float length, float width, string name){
 }
 
 
-/*********************************************************
- * 
- *********************************************************/
 Rectangle::~Rectangle(){
 
 }
 
 
-/*********************************************************
- * 
- *********************************************************/
 float Rectangle::findArea(){
     return this->length * this->width;
 }
 
 
-/*********************************************************
- * 
- *********************************************************/
 float Rectangle::findPerimeter(){
     return 2 * (this->length + this->width);
 }
 
 
-/*********************************************************
- * 
- *********************************************************/
 void Rectangle::displayShapeInformation(){
     cout << endl << "Shape: " << this->getName() << endl;
     cout << "Area: " << this->findArea() << endl;

@@ -7,9 +7,6 @@
 
 #include "RightTriangle.h"
 
-/*********************************************************
- * 
- *********************************************************/
 RightTriangle::RightTriangle(){
     this->opposite = 0.0;
     this->adjacent = 0.0;
@@ -18,9 +15,6 @@ RightTriangle::RightTriangle(){
 }
 
 
-/*********************************************************
- * 
- *********************************************************/
 RightTriangle::RightTriangle(float opp, float adj, float hyp){
     this->opposite = opp;
     this->adjacent = adj;
@@ -29,9 +23,6 @@ RightTriangle::RightTriangle(float opp, float adj, float hyp){
 }
 
 
-/*********************************************************
- * 
- *********************************************************/
 RightTriangle::RightTriangle(float opp, float adj, float hyp, string name){
     this->opposite = opp;
     this->adjacent = adj;
@@ -40,33 +31,21 @@ RightTriangle::RightTriangle(float opp, float adj, float hyp, string name){
 }
 
 
-/*********************************************************
- * 
- *********************************************************/
 RightTriangle::~RightTriangle(){
 
 }
 
 
-/*********************************************************
- * 
- *********************************************************/
 float RightTriangle::findArea(){
     return (this->opposite * this->adjacent) / 2.0;
 }
 
 
-/*********************************************************
- * 
- *********************************************************/
 float RightTriangle::findPerimeter(){
     return this->opposite + this->adjacent + sqrt(pow(this->opposite, 2) + pow(this->adjacent, 2));
 }
 
 
-/*********************************************************
- * 
- *********************************************************/
 void RightTriangle::displayShapeInformation(){
     cout << endl << "Shape: " << this->getName() << endl;
     cout << "Area: " << this->findArea() << endl;

@@ -7,9 +7,6 @@
 
 #include "functions.h"
 
-/***********************************************************
- * Function prints the class header to the console as needed.
- ***********************************************************/
 void PrintClassHeader(ostream &output) {
 
 	// Declared variables for the program header to be used by this function.
@@ -32,9 +29,6 @@ void PrintClassHeader(ostream &output) {
 }
 
 
-/*********************************************************
- * 
- *********************************************************/
 void DisplayShapeInfoOnOneLine(Shape* shape){
 	cout << endl;
 	cout << "Name = " << shape->getName();
@@ -44,9 +38,6 @@ void DisplayShapeInfoOnOneLine(Shape* shape){
 }
 
 
-/*********************************************************
- * 
- *********************************************************/
 void DisplayShapeInfoOnNewLine(Shape* shape){
 	cout << endl << "Shape: " << shape->getName() << endl;
     cout << "Area: " << shape->findArea() << endl;
